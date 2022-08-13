@@ -1,0 +1,5 @@
+.env
+node_modules
+wwwroot/app/**/*.js
+wwwroot/app/**/*.map
+build
