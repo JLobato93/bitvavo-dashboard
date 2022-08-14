@@ -22,7 +22,6 @@ const getPossessedCurrencies = async function () {
 let currencies: string[] = [];
     try {
          await collection.get().then((snapshot) => {
-             console.log(snapshot.docs[0].data().currencies);
              currencies = snapshot.docs[0].data().currencies;
          });
     } catch (err) {
