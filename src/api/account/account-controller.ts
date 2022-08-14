@@ -67,4 +67,4 @@ const totalInvested = function (deposited: string, withdrawn: string): string {
     return +deposited - +withdrawn + '';
 };
 
-export { initializeAccount };
+export { initializeAccount, getBalance };
